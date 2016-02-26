@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NewsViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    self.NewsView = [[NewsViewController alloc] init];
+    self.navigController = [[UINavigationController alloc] initWithRootViewController:self.NewsView];
+    [self.navigController setNavigationBarHidden:YES animated:NO];
+    self.navigController.navigationBar.backgroundColor = [UIColor clearColor];
+    self.window.rootViewController = self.navigController;
+    [self.window makeKeyAndVisible];
+    
+    
+    NSLog(@"modif1");
+    NSLog(@"modif2");
+    NSLog(@"modif3");
+    
+    
+    
+    
     return YES;
 }
 
