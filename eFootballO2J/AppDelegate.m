@@ -28,9 +28,13 @@
     [self.window makeKeyAndVisible];
     
     
-    NSLog(@"modif1");
-    NSLog(@"modif2");
-    NSLog(@"modif3");
+    NSLog(@"test Branch");
+    
+    NSLog(@"test Branch");
+    
+    NSLog(@"test Branch");
+    
+    NSLog(@"test Branch");
     
     
     
