@@ -1,36 +1,22 @@
 //
-//  NewViewController.m
+//  heyyyyViewController.m
 //  eFootballO2J
 //
 //  Created by Karim Koriche on 26/02/2016.
 //  Copyright © 2016 Karim Koriche. All rights reserved.
 //
 
-#import "NewViewController.h"
+#import "heyyyyViewController.h"
 
-@interface NewViewController ()
+@interface heyyyyViewController ()
 
 @end
 
-@implementation NewViewController
+@implementation heyyyyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
-    
-    NSLog(@"test NewViewController");
-    
-    NSLog(@"test NewViewController");
-    
-    NSLog(@"test NewViewController");
-    
-    NSLog(@"test NewViewController");
-    
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
