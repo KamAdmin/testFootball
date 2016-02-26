@@ -17,6 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    NSLog(@"test Branch2");
+    
+    NSLog(@"test Branch2");
+    
+    NSLog(@"test Branch2");
+    
+    NSLog(@"test Branc2");
+    
 }
 
 - (void)didReceiveMemoryWarning {
